@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './counterV2.css';
 const CounterV2 = () => {
   return (
     <div class="container">
