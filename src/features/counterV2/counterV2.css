@@ -12,6 +12,7 @@ body {
   width: 100%;
   background-color: #f26072;
   display: flex;
+  
   align-items: center;
   justify-content: center;
 }
@@ -21,10 +22,11 @@ body {
 }
 
 .container {
-  display: flex;
+  display: flex;  
   align-items: center;
   flex-direction: column;
-}
+  min-width: 200px;
+  }
 
 .number {
   font-size: 72px;
