@@ -23,6 +23,6 @@ export default function useFirebase() {
 
   onValue(dbRef, (snapshot) => {
     const rawData = snapshot.val() || {};
-    console.log("rawData", rawData);
+    // console.log("rawData", rawData);
   });
 }
